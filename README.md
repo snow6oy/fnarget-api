@@ -30,8 +30,8 @@ user  <--------|Mobile|-----|Launchkey|
                .------.     .---------.
 ```
 Fnarget is in two parts
-1. a client called (plugin.video.fnarget)[https://github.com/snow6oy/plugin.video.fnarget], running on the IPTV software above
-1. an API shown in the Synopsis that brokers requests to (api.launchkey.com)[https://docs.launchkey.com/developer/api/flow.html]
+1. a client called [https://github.com/snow6oy/plugin.video.fnarget](plugin.video.fnarget), running on the IPTV software above
+1. an API shown in the Synopsis that brokers requests to [https://docs.launchkey.com/developer/api/flow.html](api.launchkey.com)
 
 ## Test cases
 The Fnarget API supports GET POST and DELETE methods.
@@ -51,7 +51,7 @@ Test Fnarget with multiple users.
 Create a Fnarget white label and register new users
 
 ## Pre-requisites
-Read [INSTALL.md] for Launchkey and do the following for Web.py
+Read [https://github.com/snow6oy/fnarget-api/blob/master/INSTALL.md](INSTALL.md) for Launchkey notes and do the following for Web.py
 ```
  sudo python setup.py install
  Writing /usr/local/lib/python2.7/dist-packages/web.py-0.37.egg-info

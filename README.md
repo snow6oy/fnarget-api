@@ -30,25 +30,21 @@ user  <--------|Mobile|-----|Launchkey|
                .------.     .---------.
 ```
 Fnarget is in two parts
-(1) a client called [plugin.video.fnarget], running on the IPTV software above
-(2) an API shown in the Synopsis that brokers requests to Launchkey
+1. a client called (plugin.video.fnarget)[https://github.com/snow6oy/plugin.video.fnarget], running on the IPTV software above
+1. an API shown in the Synopsis that brokers requests to (api.launchkey.com)[https://docs.launchkey.com/developer/api/flow.html]
 
 ## Test cases
-The Fnarget API supports GET POST and DELETE methods 
-Each method accepts a validated launchkey username
-Username could be anyone of: <nobody> or graham or camilla
+The Fnarget API supports GET POST and DELETE methods.
+Each method accepts a validated launchkey username.
+Username could be anyone of: &lt;nobody&gt; or graham or camilla
 
 The following responses have been tested
-```
+
       |nobody |graham |camilla
+------|-------|-------|-------
 POST  | 400   | 401   | 201
 GET   | 400   | 404   | 200 
 DELETE| 400   | 404   | 204
-```
-### Happy path
-200 "camilla is logged in"
-201 Location: /camilla
-204 "logout ok"
 
 ### Todo
 Test Fnarget with multiple users

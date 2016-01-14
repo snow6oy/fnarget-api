@@ -1,4 +1,4 @@
-# api-fnarget
+# fnarget-api
 
 Fnarget exists to demonstrate the awesomeness of password-less login
 
@@ -47,13 +47,14 @@ GET   | 400   | 404   | 200
 DELETE| 400   | 404   | 204
 
 ### Todo
-Test Fnarget with multiple users
-Create a Fnarget white label [launchkey] and register new users
+Test Fnarget with multiple users. 
+Create a Fnarget white label and register new users
 
 ## Pre-requisites
-'''
+Read [INSTALL.md] for Launchkey and do the following for Web.py
+```
  sudo python setup.py install
  Writing /usr/local/lib/python2.7/dist-packages/web.py-0.37.egg-info
-'''
+```
 ## Links
 https://docs.launchkey.com/developer/web-desktop/sdk/python/sdk.html

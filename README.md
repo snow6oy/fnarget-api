@@ -30,8 +30,9 @@ user  <--------|Mobile|-----|Launchkey|
                .------.     .---------.
 ```
 Fnarget is in two parts
-1. a client called [https://github.com/snow6oy/plugin.video.fnarget](plugin.video.fnarget), running on the IPTV software above
-1. an API shown in the Synopsis that brokers requests to [https://docs.launchkey.com/developer/api/flow.html](api.launchkey.com)
+
+* a client called [plugin.video.fnarget](https://github.com/snow6oy/plugin.video.fnarget), running on the IPTV software above.
+* an API shown as *Web App* above and referenced in the Synopsis. The Fnarget API brokers requests between [api.launchkey.com](https://docs.launchkey.com/developer/api/flow.html) and the Kodi UI.
 
 ## Test cases
 The Fnarget API supports GET POST and DELETE methods.
